@@ -1,0 +1,2 @@
+
+Frequenze relattive assolute percentuali 

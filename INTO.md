@@ -1,0 +1,1 @@
+crea una nuova tabella e salva i risultati

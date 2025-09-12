@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"150f4e591b3d083e","type":"text","text":"SORGENTE: vari database files","x":-130,"y":120,"width":250,"height":120,"color":"2"},
+		{"id":"796a807c5be24aae","type":"text","text":"COPIA non e' detto che sia uguale\n\nLANDING AREA","x":-130,"y":-60,"width":250,"height":90,"color":"1"},
+		{"id":"3862a7f03aeecee1","type":"text","text":"ELABORAZONI","x":-130,"y":-240,"width":250,"height":93,"color":"4"},
+		{"id":"78a8b3c40e0e15f8","type":"text","text":"DATA WAREHPUSE\n","x":-130,"y":-460,"width":250,"height":120,"color":"6"},
+		{"id":"eff1c7cb7c178530","type":"text","text":"REPORT","x":-130,"y":-580,"width":250,"height":60,"color":"5"}
+	],
+	"edges":[
+		{"id":"fd5a1af274e90961","fromNode":"150f4e591b3d083e","fromSide":"top","toNode":"796a807c5be24aae","toSide":"bottom"},
+		{"id":"8cfe5320b6b885ee","fromNode":"796a807c5be24aae","fromSide":"top","toNode":"3862a7f03aeecee1","toSide":"bottom"},
+		{"id":"def06805ca4fceb2","fromNode":"3862a7f03aeecee1","fromSide":"top","toNode":"78a8b3c40e0e15f8","toSide":"bottom"},
+		{"id":"fc5b1ca3b31fe8a1","fromNode":"78a8b3c40e0e15f8","fromSide":"top","toNode":"eff1c7cb7c178530","toSide":"bottom"}
+	]
+}

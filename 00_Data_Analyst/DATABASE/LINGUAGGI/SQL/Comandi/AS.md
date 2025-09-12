@@ -1,0 +1,1 @@
+as permette di "cambiare" il nome della colonna nella lettura

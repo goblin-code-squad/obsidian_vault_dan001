@@ -1,0 +1,2 @@
+nei DB e' piu' veloce cancellare tutto e reinserire tutto che semplicemente inserire i nuovi dati
+questo perche' per ottimizzare i dati il programma mette i dati sui settori vuoti all'interno di un disco che e' gia' pieno mentro se cancello tutto se ne frega e immette tutto da zero
