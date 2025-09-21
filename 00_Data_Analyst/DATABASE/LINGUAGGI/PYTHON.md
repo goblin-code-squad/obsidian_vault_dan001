@@ -13,6 +13,8 @@ In Python, una **chiamata di funzione** (function call) è l'esecuzione di un bl
 1. **Dichiari** la funzione (una volta).  
 2. **La chiami** (quante volte vuoi) per eseguirla.  
 
+
+
 ---
 
 ### 📌 **Esempio Base**
@@ -128,14 +130,28 @@ ogni elemento nella tupla e' una colonna
 ( 0 0 0 0 ),
 ( 0 0 0 0 )]
 
-[[ARRAY]]
+[[ARRAY]] : 
+Un array è una struttura dati che contiene una collezione di elementi (valori), tutti dello stesso tipo, organizzati in una sequenza ordinata.
+Si definite usando le parentesi quadre.
 
-tupla 
+[[TUPLA]] :
+una **tupla** è una sequenza ordinata e **immutabile** di elementi.  
+Si definisce usando le parentesi tonde
 
-cursore
+[[CURSORE]] :
+In Python, un cursore (cursor) è un oggetto che permette di eseguire comandi [[home/wittgenstein/Documents/git/obsidian_vault_dan001/00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/00 Indice e tips|SQL INDICE]] e di gestire i risultati delle query su un database. In Python, un **cursore** (cursor) è un oggetto che permette di eseguire comandi SQL e di gestire i risultati delle query su un database.  
+Con il modulo [sqlite3], il cursore si crea con `conn.cursor()` e si usa per:
 
-funzione
+==ATTENZIONE: in python, sql richiede che i dati in entrata siano tuple==
+
+- eseguire query ([[execute]])
+- recuperare dati ([[fetchall]], `fetchone`)
+- gestire transazioni
+
+funzione : del nomefunzione(parametri)
 
 modulo
+
+variabile
 
 definire una variabile e' salvare quella variabile, serve per dire al programma cosa sia e fargliela memorizzare visto che gli diamo un valore

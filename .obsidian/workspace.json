@@ -4,77 +4,77 @@
     "type": "split",
     "children": [
       {
-        "id": "b41e81eb523eee85",
+        "id": "6dbf9971a73bf4df",
         "type": "tabs",
         "children": [
           {
-            "id": "adfdbcf1908e757d",
+            "id": "63072197164ed88d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Data_Analyst/WORK FLOWCHART/QUERIES POSTGRES.md",
+                "file": "00_Data_Analyst/DATABASE/LINGUAGGI/PYTHON.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "QUERIES POSTGRES"
+              "title": "PYTHON"
             }
           },
           {
-            "id": "ed711bc41b98b396",
+            "id": "d47818c5423600ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossario/Distribuzione Assoluta.md",
+                "file": "00_Data_Analyst/DATABASE/LINGUAGGI/Python/FUNZIONI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Distribuzione Assoluta"
+              "title": "FUNZIONI"
             }
           },
           {
-            "id": "281ea8a19fc1c5af",
+            "id": "98f025860efc09d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ESERCIZI/aiutini.md",
+                "file": "00_Data_Analyst/DATABASE/LINGUAGGI/Python/FUNZIONI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "aiutini"
+              "title": "FUNZIONI"
             }
           },
           {
-            "id": "f99bf0d3578a3423",
+            "id": "584d3454614b1633",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossario/Data Visualisation.md",
+                "file": "00_Data_Analyst/DATABASE/LINGUAGGI/Python/VARIABILE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Visualisation"
+              "title": "VARIABILE"
             }
           },
           {
-            "id": "e2011e84b187c5ee",
+            "id": "c6b72e84d3e207c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Data_Analyst/Git Hub.md",
+                "file": "00_Data_Analyst/DATABASE/LINGUAGGI/Python/FUNZIONI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git Hub"
+              "title": "FUNZIONI"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "diagr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,8 +131,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -228,50 +227,52 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e2011e84b187c5ee",
+  "active": "c6b72e84d3e207c9",
   "lastOpenFiles": [
-    "Glossario/Data Visualisation.md",
-    "NAMING CONVENTIONS.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/WHERE.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/CONCAT.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/AND.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/PARTITION BY.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/PYTHON.md",
-    "Glossario/Normalizzazione Vs Denormalizzazione.md",
-    "00_Data_Analyst/Git Hub.md",
-    "DA FARE.md",
-    "ARRAY.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/RANK e DENSE_RANK.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/ROW_NUMBER.md",
-    "Pasted image 20250717163638.png",
-    "Logica Database/Vincoli di indentita'.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/VIEW.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/GROUP_CONCAT.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/GROUP BY.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/GROUP BY 1.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/DISTINCT.md",
-    "GIT",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/HAVING.md",
-    "Untitled 1.md",
-    "Untitled 1.base",
-    "Untitled 1.canvas",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/Python/ITERATORE.md",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/Python/ARRAY.md",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/Python/00 INDICE.md",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/Python/FUNZIONI.md",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/Python/VARIABILE.md",
+    "DIAGRAMMA FLUSSO PER FEEDBACK.md",
+    "diagramma_flusso.md",
+    "diagramma flusso.canvas",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/Python/CURSOR.md",
+    "ARRAY 1.md",
+    "INTO.md",
+    "INDEX.md",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/SQL Ricorsivo.md",
+    "Schema di fatto.md",
+    "SQL.md",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/Python/TUPLA.md",
     "Untitled.base",
-    "ESERCIZI/CORREZIONE ASSIGNMENT.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/COUNT.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/ORDER BY.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/CASE.md",
+    "Untitled 4.base",
+    "Untitled 5.base",
+    "Untitled 6.base",
+    "Untitled 7.base",
+    "Untitled 8.base",
+    "Untitled 9.base",
+    "Untitled 10.base",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/Python/LIBRERIE.md",
+    "Strutture Dati.md",
+    "00_Data_Analyst/Git Hub.md",
+    "2025-09-15.md",
+    "Untitled 3.canvas",
+    "Glossario/Data catalog.md",
+    "Glossario/Normalizzazione Vs Denormalizzazione.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/JOIN.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/PostgresSql",
+    "Glossario/Flowchart.md",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/PYTHON.md",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/UNION.md",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/Operatori.md",
+    "Untitled 2.canvas",
+    "home/wittgenstein/Documents/git/obsidian_vault_dan001/00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi",
+    "home/wittgenstein/Documents/git/obsidian_vault_dan001/00_Data_Analyst/DATABASE/LINGUAGGI/SQL",
+    "Pasted image 20250717163638.png",
+    "Untitled 1.canvas",
     "Pasted image 20250718172451.png",
     "Pasted image 20250718172342.png",
     "Pasted image 20250717163706.png",
-    "Untitled.canvas",
-    "Pasted image 20250701102617.png",
-    "Logica Database",
-    "ESERCIZI",
-    "00_Data_Analyst/Untitled",
-    "00_Data_Analyst/DATABASE/LINGUAGGI",
-    "00_Data_Analyst/DATABASE/TIPO",
-    "00_Data_Analyst/DATABASE"
+    "Pasted image 20250701102617.png"
   ]
 }

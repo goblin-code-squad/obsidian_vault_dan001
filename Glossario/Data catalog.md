@@ -5,6 +5,7 @@ Termine / cosa vuol dire la colonna / tipo di variabile / Dominio
 #### **Definizione**  
 Un **Data Catalog** è un inventario organizzato di dati aziendali che funge da "biblioteca" per trovare, comprendere e governare i dati. Include metadati, descrizioni, relazioni e informazioni sull'utilizzo.  
 
+
 ---
 
 ### **Dettagli**  
