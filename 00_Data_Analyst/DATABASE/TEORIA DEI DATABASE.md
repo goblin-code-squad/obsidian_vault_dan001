@@ -21,3 +21,4 @@ Elementi principali:
 [[SCHEMATA]]: Star scheme vs Snowflake scheme che sono normalizzate o denormalizzate a seconda [[Normalizzazione Vs Denormalizzazione]]
 
 [[NAMING CONVENTIONS]]: usare nomi comprensibili in modo che tutti possano comprendere immediatamente il ruolo degli oggetti che vedo 
+

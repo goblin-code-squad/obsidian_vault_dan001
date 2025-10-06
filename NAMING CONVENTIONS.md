@@ -10,5 +10,5 @@ PL e' presentation layer
 
 per gli utenti ci mettiamo la parola intera tipo DIM_FACT
 DIM_ per le dimensioni
-FAT_ per i fatti
+FACT_ per i fatti
 

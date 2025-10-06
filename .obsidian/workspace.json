@@ -64,35 +64,21 @@
             }
           },
           {
-            "id": "c6b72e84d3e207c9",
+            "id": "49ca87bfa986f303",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Data_Analyst/DATABASE/LINGUAGGI/Python/REPL.md",
+                "file": "ESERCIZI/ASSIGNMENT WK 12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "REPL"
-            }
-          },
-          {
-            "id": "047dbffac3b0f2ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SOFT SKILLS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SOFT SKILLS"
+              "title": "ASSIGNMENT WK 12"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -124,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "diagr",
+                "query": "wk 12",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,7 +131,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -241,9 +228,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "047dbffac3b0f2ac",
+  "active": "49ca87bfa986f303",
   "lastOpenFiles": [
+    "Untitled 12.base",
+    "NAMING CONVENTIONS.md",
+    "00_Data_Analyst/DATABASE/TEORIA DEI DATABASE.md",
+    "00_Data_Analyst/DATABASE/DATA MART.md",
+    "Untitled 11.base",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/Python/VARIABILE.md",
+    "ESERCIZI/aiutini.md",
+    "ESERCIZI/Preferenze_alimentar_dbeaver.md",
+    "ESERCIZI/ASSIGNMENT WK 12.md",
+    "ESERCIZI/CORREZIONE ASSIGNMENT.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/Python/REPL.md",
+    "WK 12.md",
+    "00_Data_Analyst/DATABASE/MODELLO DIMENSIONALE.md",
+    "00_Data_Analyst/DATABASE/GERARCHIE.md",
+    "00_Data_Analyst/DATABASE/Obiettivi di ETL.md",
+    "00_Data_Analyst/DATABASE/STRATEGIA INCREMENTALE (DELTA).md",
     "SOFT SKILLS.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/Python/00 INDICE.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/Python/Postgres @ Python.md",
@@ -251,18 +253,11 @@
     "00_Data_Analyst/DATABASE/LINGUAGGI/Python/FUNZIONI.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/Python/ITERATORE.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/Python/ARRAY.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/Python/VARIABILE.md",
     "DIAGRAMMA FLUSSO PER FEEDBACK.md",
     "diagramma_flusso.md",
     "diagramma flusso.canvas",
     "00_Data_Analyst/DATABASE/LINGUAGGI/Python/CURSOR.md",
     "ARRAY 1.md",
-    "INTO.md",
-    "INDEX.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/SQL Ricorsivo.md",
-    "Schema di fatto.md",
-    "SQL.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/Python/TUPLA.md",
     "Untitled.base",
     "Untitled 4.base",
     "Untitled 5.base",
@@ -271,17 +266,8 @@
     "Untitled 8.base",
     "Untitled 9.base",
     "Untitled 10.base",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/Python/LIBRERIE.md",
-    "Strutture Dati.md",
-    "00_Data_Analyst/Git Hub.md",
-    "2025-09-15.md",
     "Untitled 3.canvas",
-    "Glossario/Data catalog.md",
-    "Glossario/Normalizzazione Vs Denormalizzazione.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/JOIN.md",
     "Untitled 2.canvas",
-    "home/wittgenstein/Documents/git/obsidian_vault_dan001/00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi",
-    "home/wittgenstein/Documents/git/obsidian_vault_dan001/00_Data_Analyst/DATABASE/LINGUAGGI/SQL",
     "Pasted image 20250717163638.png",
     "Untitled 1.canvas",
     "Pasted image 20250718172451.png",
