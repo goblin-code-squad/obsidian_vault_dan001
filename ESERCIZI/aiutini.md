@@ -1,7 +1,35 @@
 [[JOIN]]
 
 
+ESMPIO JOIN GIUSTA con una sola  var nella select
+(non serve group by)
+```sql
+select
 
+sum(sales_value) as totale_vendite_italia
+
+  
+
+from fact_sales
+
+  
+
+join
+
+dim_customer_customer ON fact_sales.customer_ids = dim_customer_customer.customer_ids
+
+  
+
+join
+
+  
+
+dim_customer_country on dim_customer_customer.country_ids = dim_customer_country.country_ids
+
+  
+
+where dim_customer_country.customer_country = 'Italy'
+```
 
 
 
@@ -20,11 +48,36 @@ where non_esisto_ancora='non_esisto_ancora'
 
 
 --dammi i valori della colonna che hanno dei duplicati
+```sql
 select colonna_che_forse_ha_duplicati, 
-	-- COUNT(colonna_che_forse_ha_duplicati)
+	COUNT(colonna_che_forse_ha_duplicati)
 	FROM tabella_con_colonna_con_forse_i_duplicati
 	group by colonna_che_forse_ha_duplicati
 	having COUNT(colonna_che_forse_ha_duplicati)>1
+```
+
+es:
+
+- Per controllare se una colonna non ha doppioni:
+
+Select colonna1 from tabella2  
+group by colonna1  
+having count(colonna1) > 1
+
+es: 
+
+```sql
+
+select
+	ids_giorno,
+	count(*) as conteggio_duplicati
+from
+openbo_dwh.dim_tempo_inizio dti
+group by
+	ids_giorno -- raggruppa tutte le righe con la stessa data
+having
+	count(*) > 1;
+```
 
 select  colonna_che_forse_ha_duplicati, 
 	COUNT(colonna_che_forse_ha_duplicati)

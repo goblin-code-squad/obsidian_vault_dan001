@@ -7,7 +7,7 @@ e' possibile creare una colonna con gli errori e poi filtrarla via!
 
 ![[Pasted image 20250701102617.png]]
 
-Sì, esatto! Se le tabelle pivot tradizionali possono essere viste come "cubi" di dati (dove ogni dimensione rappresenta una categoria o un attributo), è possibile estendere questo concetto a strutture multidimensionali più complesse, chiamate **ipercubi** (o **OLAP hypercubes**).
+Sì, esatto! Se le tabelle pivot tradizionali possono essere viste come "cubi" di dati (dove ogni dimensione rappresenta una categoria o un attributo), è possibile estendere questo concetto a strutture multidimensionali più complesse, chiamate **ipercubi** (o **OLAP hypercubes**  - Online Analytical Processing).
 
 ### **Ipercubi nelle analisi dati**
 

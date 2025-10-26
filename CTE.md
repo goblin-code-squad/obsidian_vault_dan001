@@ -5,9 +5,9 @@ Una **CTE** (Common Table Expression, o "Espressione di Tabella Comune") è una 
 
 ---
 
-## **📌 Sintassi Base**
+## **Sintassi Base**
 ```sql
-WITH nome_cte AS (
+WITH cte AS (
     SELECT colonna1, colonna2
     FROM tabella
     WHERE condizione
@@ -20,7 +20,7 @@ SELECT * FROM nome_cte;
 
 ---
 
-### **🔎 Esempio Pratico (PostgreSQL & SQLite)**
+### ** Esempio Pratico (PostgreSQL & SQLite)**
 ```sql
 -- Trova i dipendenti con stipendio superiore alla media
 WITH stipendio_medio AS (
@@ -39,7 +39,7 @@ WHERE stipendio > media;
 
 ---
 
-## **💡 Perché Usare CTE?**
+## ** Perché Usare CTE?**
 1. **Migliora la leggibilità** (evita subquery annidate)
 2. **Riutilizzo della logica** (puoi riferirti alla CTE più volte)
 3. **Ricorsione** (solo in alcuni DB come PostgreSQL)
@@ -47,7 +47,7 @@ WHERE stipendio > media;
 
 ---
 
-## **🔄 CTE Ricorsive (Esempio Avanzato)**
+## **CTE Ricorsive (Esempio Avanzato)**
 ```sql
 -- Trova tutti i sottoposti di un manager (PostgreSQL)
 WITH RECURSIVE gerarchia AS (
@@ -72,11 +72,11 @@ SELECT * FROM gerarchia;
 | 2  | Marco | 1          |
 | 3  | Anna  | 2          |
 
-> **📌 Nota**: SQLite supporta CTE ricorsive dalla versione **3.35+**.
+> ** Nota**: SQLite supporta CTE ricorsive dalla versione **3.35+**.
 
 ---
 
-## **🚀 Confronto con Subquery e Viste**
+## **Confronto con Subquery e Viste**
 | Feature       | CTE                          | Subquery                     | Vista                        |
 |--------------|-----------------------------|-----------------------------|-----------------------------|
 | **Durata**   | Solo per la query corrente   | Solo per la query corrente   | Persistente nel DB           |
@@ -85,7 +85,7 @@ SELECT * FROM gerarchia;
 
 ---
 
-## **📌 Esempio con RANK() (PostgreSQL & SQLite)**
+## ** Esempio con RANK() (PostgreSQL & SQLite)**
 ```sql
 -- Classifica dipendenti per reparto
 WITH ranking AS (
@@ -107,13 +107,13 @@ SELECT * FROM ranking WHERE posizione <= 3;
 
 ---
 
-## **✅ Quando Usare CTE?**
+## ** Quando Usare CTE?**
 ✔ Query complesse con più JOIN/WHERE  
 ✔ Query ricorsive (es. gerarchie, grafi)  
 ✔ Sostituzione di visti temporanee  
 ✔ Debug passo-passo di una query  
-
-## **❌ Quando Evitare?**
+✔ Le puoi fare una volta sola e non crea una vera tabella 
+## ** Quando Evitare?**
 ✖ Query semplici (una subquery è sufficiente)  
 ✖ Database molto vecchi (es. MySQL < 8.0)  
 

@@ -2,7 +2,7 @@
 
 Una **CTE ricorsiva** permette di eseguire query su strutture gerarchiche o dati a grafo. Ecco come usarla:
 
-## **📌 Struttura Base di una CTE Ricorsiva**
+## **Struttura Base di una CTE Ricorsiva**
 ```sql
 WITH RECURSIVE nome_cte AS (
     -- Query di ancoraggio (caso base)
@@ -23,7 +23,7 @@ SELECT * FROM nome_cte;
 
 ---
 
-## **🌳 Esempio 1: Gerarchia Aziendale (Dipendenti → Manager)**
+## ** Esempio 1: Gerarchia Aziendale (Dipendenti → Manager)**
 ```sql
 WITH RECURSIVE gerarchia AS (
     -- Caso base: trova il CEO (manager_id IS NULL)
@@ -52,7 +52,7 @@ SELECT * FROM gerarchia;
 
 ---
 
-## **🔄 Esempio 2: Percorso in un Grafo (PostgreSQL)**
+## **Esempio 2: Percorso in un Grafo (PostgreSQL)**
 ```sql
 WITH RECURSIVE percorso AS (
     -- Nodo di partenza (es. città 'Roma')
@@ -75,7 +75,7 @@ SELECT * FROM percorso;
 
 ---
 
-## **📊 Esempio 3: Calcolo Fattoriale (SQLite)**
+## ** Esempio 3: Calcolo Fattoriale (SQLite)**
 ```sql
 WITH RECURSIVE fattoriale(n, risultato) AS (
     SELECT 1, 1  -- Caso base
@@ -100,7 +100,7 @@ SELECT * FROM fattoriale;
 
 ---
 
-## **⚠️ Cose da Ricordare**
+## ** Cose da Ricordare**
 1. **`RECURSIVE`** è obbligatorio in PostgreSQL, opzionale in SQLite.
 2. **Condizione di arresto**: Senza di essa, la query entra in loop infinito!
 3. **Performance**: Usa indici sulle colonne di join.
@@ -110,7 +110,7 @@ SELECT * FROM fattoriale;
 
 ---
 
-## **🔍 Caso Reale: Albero di Commenti (Forum/Blog)**
+## **Caso Reale: Albero di Commenti (Forum/Blog)**
 ```sql
 WITH RECURSIVE thread AS (
     -- Commento radice (senza parent_id)
@@ -141,7 +141,7 @@ FROM thread;
 
 ---
 
-## **💡 Quando Usare SQL Ricorsivo?**
+## **Quando Usare SQL Ricorsivo?**
 ✔ Gerarchie organizzative  
 ✔ Alberi di categorie (e-commerce)  
 ✔ Percorsi in grafi (reti sociali, mappe)  

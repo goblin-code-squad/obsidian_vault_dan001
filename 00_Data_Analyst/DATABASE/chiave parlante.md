@@ -15,7 +15,7 @@ Ecco una spiegazione semplice e diretta:
 - Rischio di duplicati o incoerenze (es. due prodotti con categorie diverse ma stesso numero finale).  
 
 ### Alternative?  
-Spesso si usano **chiavi surrogate** (ID numerici automatici, senza significato) per evitare questi problemi, soprattutto in database complessi.  
+Spesso si usano **[[CHIAVI]]** (ID numerici automatici, senza significato) per evitare questi problemi, soprattutto in database complessi.  
 
 Vuoi esempi più pratici o approfondimenti su un caso specifico?
 

@@ -1,5 +1,35 @@
 1. [[Fact Table]] (tabella con tutte le misure)
 2. [[Dimensioni]] organizzate in gerarchie
+3. [[Mapping o Transcodifica]]
+4. 
+
+---
+
+attenzione: in import ricordarsi in integration di correggere le minuscole e gli spazi
+
+attenzione al double counting che senza group by non si possono evitare
+
+non costruire anagrafiche per valori NULL o string vuote ( ' ' ) perche a volte non funziona il distinct (si puo' usare anche left join)
+
+tagliare anagrafiche inutili
+("in" sul fatto)
+
+esemepio
+
+dim_paese = { (1, 'ITA'), (2, 'FRA'), (3, 'GER'), (4, 'SPA'), (-1, 'fittizio') }
+
+fact_vendite = {(1, 10), (2, 4), (3, 56), (-1, 2)}
+
+cioe 
+```sql 
+create table dim_paese as
+select * from integration.it_dim_paese
+where id_paese 
+IN
+(select id_paese from fact_vendite)
+```
+
+
 ---
 ##  Concetti Chiave e Fasi del Data Warehouse (DW)
 
