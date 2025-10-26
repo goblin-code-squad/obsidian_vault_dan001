@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REGEXP_REPLACE.md",
+                "file": "00_Data_Analyst/prove di commit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "REGEXP_REPLACE"
+              "title": "prove di commit"
             }
           }
         ],
@@ -229,8 +229,9 @@
   },
   "active": "51d9eb38e6e2d1c2",
   "lastOpenFiles": [
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/00 Indice e tips.md",
     "REGEXP_REPLACE.md",
+    "00_Data_Analyst/prove di commit.md",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/00 Indice e tips.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/01 ESEMPI.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/Untitled.md",
     "CHIAVI.md",
@@ -255,7 +256,6 @@
     "00_Data_Analyst/DATABASE/LINGUAGGI/Python/FUNZIONI.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/Python/Postgres_Python.md",
     "dataframe.md",
-    "00_Data_Analyst/DATABASE/PIVOT.md",
     "Untitled 17.base",
     "Untitled 16.base",
     "Untitled 15.base",
