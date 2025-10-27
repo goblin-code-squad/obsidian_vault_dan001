@@ -23,3 +23,23 @@ la select  che riprende tutte le cose che hai scelto e nel contempo crei una col
 poi gli da una were dove dico che quel dato e' nullo o ' '  cioe' vuoto
 
 (a volte si crea anche una anagrafica degli errori mettendo un errore ID, che e' utile perche' puoi modificare l'anagrafica e rinominare tutti gli errori)
+
+per creare un IDS per la data, qui facciamo tutto coi numeri.
+in questo caso io non ho potuto farlo perche' avevo preso i dati come text
+
+```sql 
+(extract(year from giorno_inizio)*10000+extract(month from giorno_inizio)*100+extract(day from giorno_inizio))::int as ids_giorno
+```
+
+
+per esempio qui si puo' fare una "from" da una union con una select subquery
+niceee
+
+```sql
+from ( 
+select giorno_inizio
+from tt_incarichi_collaborazione
+union
+select giorno_inizio
+from tt_incarichi_conferiti)
+```
