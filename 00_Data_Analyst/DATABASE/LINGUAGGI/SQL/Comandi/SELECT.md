@@ -26,4 +26,5 @@ FROM table_source
 [ ORDER BY order_expression [ ASC | DESC ] ];```
 
 
-
+la select star e' una brutta abitudine nella creazione automatica di colonne
+meglio mettere le colonne reali scrivendole perche' perdi il controllo delle colonne che importi e se qualcuno in futuro aggiunge colonne con milion di dati si spacca tutto

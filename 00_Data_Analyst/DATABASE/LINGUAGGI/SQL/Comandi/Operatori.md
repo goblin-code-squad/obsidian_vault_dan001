@@ -89,11 +89,17 @@ GROUP BY regione;
 ```
 
 #### 2. **Operatori per Stringhe**
-| Operatore/Funzione | Esempio |
-|--------------------|---------|
-| `||` (concatenazione) | `SELECT nome || ' ' || cognome AS nome_completo` |
-| `SUBSTRING()` | `SUBSTRING(codice, 1, 3) AS prefisso` |
-| `UPPER()`/`LOWER()` | `WHERE LOWER(città) = 'roma'` |
+| Operatore/Funzione  | Esempio                               |                    |              |     |     |     |                           |
+| ------------------- | ------------------------------------- | ------------------ | ------------ | --- | --- | --- | ------------------------- |
+| `                   |                                       | ` (concatenazione) | `SELECT nome |     | ' ' |     | cognome AS nome_completo` |
+| `SUBSTRING()`       | `SUBSTRING(codice, 1, 3) AS prefisso` |                    |              |     |     |     |                           |
+| `UPPER()`/`LOWER()` | `WHERE LOWER(città) = 'roma'`         |                    |              |     |     |     |                           |
+
+SUBSTRING funziona cosi'
+('colonna o codice' , la posizione della lettera, dove si ferma e include) 
+se gli metti
+('colonna), la posizione della lettera) poi ti taglia tutto quello prima
+
 
 #### 3. **Operatori per Date**
 ```sql

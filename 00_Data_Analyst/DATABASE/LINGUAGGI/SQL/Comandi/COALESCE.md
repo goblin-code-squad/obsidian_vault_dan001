@@ -40,4 +40,5 @@ COALESCE(
 
 Per creare il campo **`mese`** nella tua dimensione, ti basta un **singolo `COALESCE` con due argomenti** (l'estrazione pulita e il valore fittizio `-1`).
 
-Sei pronto a scrivere il codice completo per il campo **`mese`**? Ricorda: **`EXTRACT(MONTH FROM ...)`** e il fittizio **`-1`**. Provaci! 🚀
+Sei pronto a scrivere il codice completo per il campo **`mese`**? Ricorda: **`EXTRACT(MONTH FROM ...)`** e il fittizio **`-1`**. Provaci! 
+

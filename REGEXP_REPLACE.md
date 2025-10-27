@@ -1,3 +1,6 @@
+ESPRESSIONI REGOLARI
+si usano spesso per fare il controllo della mail (validation mail with regex)
+e dei codici fiscali o partite iva
 
 ```
 REGEXP_REPLACE

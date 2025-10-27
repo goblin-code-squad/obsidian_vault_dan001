@@ -64,6 +64,7 @@ ANTIJOIN !=
 
 ![[Pasted image 20250717163638.png]]
 
+la antijoin si fa usando una where is null e cosi' prendi solo quelle che non hanno corrispondenza
 ## ** CLASSICA LEFT JOIN** 
 
 ![[Pasted image 20250718172451.png]]

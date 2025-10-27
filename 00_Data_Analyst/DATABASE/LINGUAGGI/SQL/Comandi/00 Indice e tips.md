@@ -1,4 +1,4 @@
-
+    
 In SQL, l'ordine logico di esecuzione è:
 
 - FROM
