@@ -56,3 +56,10 @@ come si crea?
 |`SELECT`<br><br>  `ROW_NUMBER() OVER (...)` `as` `athlete_num,`<br><br>  `...`<br><br>`FROM` `athletes;`|
 
 The `OVER()` clause has two optional subclauses: `PARTITION BY` and `ORDER BY`. We will show examples using several different `OVER()` clauses.
+
+
+CONTROLLI DA EFFETTUARE SULLE CHIAVI:
+
+1. Chiavi duplicate
+2.  Chiavi nulle
+3. Chiave mancante 

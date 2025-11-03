@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/COALESCE.md",
+                "file": "SOFT SKILLS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "COALESCE"
+              "title": "SOFT SKILLS"
             }
           },
           {
@@ -138,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "coal",
+                "query": "soft ski",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -258,6 +258,11 @@
   },
   "active": "3744162b6f2f5a77",
   "lastOpenFiles": [
+    "00_Data_Analyst/DATABASE/chiave parlante.md",
+    "CHIAVI.md",
+    "ESERCIZI/CORREZIONE ASSIGNMENT.md",
+    "ESERCIZI/ASSIGNMENT WK 12.md",
+    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/COALESCE.md",
     "ASSIGNMENT_WK_14.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/NOT.md",
     "SPECIFICA FUNZIONALE.md",
@@ -266,7 +271,6 @@
     "00_Data_Analyst/DATABASE/DATA MART.md",
     "REGEXP_REPLACE.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/Operatori.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/COALESCE.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/SELECT.md",
     "ESERCIZI/aiutini.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/UNION.md",
@@ -276,14 +280,10 @@
     "00_Data_Analyst/prove di commit.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/01 ESEMPI.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/Untitled.md",
-    "CHIAVI.md",
     "assignment wk 14.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/GROUP BY.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/CASE.md",
     "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/QUARTER.md",
-    "00_Data_Analyst/DATABASE/LINGUAGGI/SQL/Comandi/PARTITION BY.md",
-    "ESERCIZI/CORREZIONE ASSIGNMENT.md",
-    "CAST.md",
     "Untitled 18.base",
     "Untitled 17.base",
     "Untitled 16.base",
