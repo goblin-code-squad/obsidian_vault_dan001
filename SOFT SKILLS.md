@@ -106,3 +106,12 @@ oggi la lezione su causa-effetto mi ha fatto pensare a Spinoza che ha fatto dell
 - *Esempio: relazione medico-paziente*
 
 
+PENSO AD UNA SITUAZIONE IN CUI MI SONO SENTITO ASCOLTATO
+
+mattina con amica
+
+mi  stava guardando e annuendo
+
+non mi interrompeva ma anzi approfindiva le domande
+
+aggiungeva le sue ipotesi sul fatto sottilineando che erano ipotesi
