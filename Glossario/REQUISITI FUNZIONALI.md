@@ -7,3 +7,5 @@ Requisiti Non Funzionali:
 cose che l'utente vede tocca 
 SLA: Service Level Agreement (accordi sul livello di servizio. es: uptime 99% del tempo)
 sono quelli che fanno fallire i progetti - perche' sono quelli non detti
+
+quando si e' fatto tutto questo, si fa ambiente di collaudo e poi rilascio in produzione con una release note
